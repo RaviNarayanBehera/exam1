@@ -114,7 +114,9 @@ class _HomePageState extends State<HomePage> {
                   border: const Border(
                       top: BorderSide(color: Colors.black, width: 3),
                       right: BorderSide(color: Colors.black, width: 3),
-                      left: BorderSide(color: Colors.black, width: 3)),
+                      left: BorderSide(color: Colors.black, width: 3),
+                      bottom: BorderSide(color: Colors.black, width: 3),
+                  ),
                   color: Colors.black,
                   image: DecorationImage(
                     image: AssetImage(img),
